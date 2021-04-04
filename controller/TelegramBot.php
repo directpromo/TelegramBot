@@ -106,7 +106,7 @@ class TelegramBot
 
     function deleteMessage($chat_id, $message_id){
         return $this->go('deleteMessage',[
-        'chat_id'=>$chat_id
+        'chat_id'=>$chat_id,
         'message_id'=>$message_id
         ]);
     } 
