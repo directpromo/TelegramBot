@@ -1,2 +1,1 @@
 # TelegramBot
-Telegram bot library
