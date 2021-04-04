@@ -50,9 +50,7 @@ if($callback_data == 'inline'){
 
 if($callback_data == 'custom'){
 
-	$bot->deleteMessage($callback_chat_id, [
-		'message_id'=>$callback_message_id
-	]);
+	$bot->deleteMessage($callback_chat_id, $callback_message_id);
 
 	$keyboard = $bot->buildKeyboard([
 		['Test','Test'],
