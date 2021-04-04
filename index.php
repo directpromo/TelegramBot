@@ -6,7 +6,7 @@
  * @license free and open source
  */
 
-require_once __DIR__ . '/app/controller.php';
+require_once __DIR__ . '/controller/TelegramBot.php';
 
 use TelegramBot\TelegramBot;
 
