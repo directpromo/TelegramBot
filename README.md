@@ -2,7 +2,7 @@
 
 ## Ishlatish
 
-# Yuklash:
+Yuklash:
 
 `git clone https://github.com/KhamdullaevUz/TelegramBot`
 
