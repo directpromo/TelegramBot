@@ -104,12 +104,11 @@ class TelegramBot
         );
     } 
 
-    function deleteMessage($chat_id, $datas=[]){
-        return $this->go('deleteMessage',
-        array_merge([
+    function deleteMessage($chat_id, $message_id){
+        return $this->go('deleteMessage',[
         'chat_id'=>$chat_id
-        ], $datas)
-        );
+        'message_id'=>$message_id
+        ]);
     } 
 
     function sendAction($chat_id, $datas=[]){
