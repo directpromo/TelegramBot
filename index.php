@@ -8,7 +8,7 @@
 
 require_once __DIR__ . '/app/controller.php';
 
-use app\TelegramBot;
+use TelegramBot\TelegramBot;
 
 $bot = new TelegramBot("API_KEY");
 
