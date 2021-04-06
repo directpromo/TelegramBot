@@ -16,4 +16,6 @@ index.php faylini webhook qilasiz:
 
 `https://api.telegram.org/botAPI_KEY/setwebhook?url=https://SERVER_ADRESS/index.php`
 
+##Bot kodini o'zgartirib ishlataverasiz
+
 enjoy :)
