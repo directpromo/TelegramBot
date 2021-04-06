@@ -111,11 +111,11 @@ class TelegramBot
         ]);
     } 
 
-    function sendAction($chat_id, $datas=[]){
-        return $this->go('sendChatAction',
-        array_merge([
-        'chat_id'=>$chat_id
-        ], $datas)
+    function sendAction($chat_id, $action){
+        return $this->go('sendChatAction',[
+        'chat_id'=>$chat_id,
+	'action'=>$action
+        ])
         );
     }   
 }
