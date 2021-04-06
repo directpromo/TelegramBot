@@ -33,9 +33,7 @@ $main = $bot->buildInlineKeyboard([
 
 if($text == "/start"){
 
-	$bot->sendAction($chat_id,[
-		'action'=>"typing"
-	]);
+	$bot->sendAction($chat_id, "typing");
 
 	$bot->sendMessage($chat_id, [
 		'text'=>"Assalomu alaykum ".$name,
